@@ -1,0 +1,11 @@
+name: AppDaemon Custom
+version: 1.0
+slug: appdaemon_custom
+description: Custom AppDaemon wrapper
+arch:
+  - aarch64
+startup: application,
+boot: auto,
+init: false
+host_network: true
+map: addon_config:rw
