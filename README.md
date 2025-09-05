@@ -8,7 +8,7 @@ Homeassitant add-on for appdaemon
 3. Click on "Add-ons" in the submenu.
 4. Click on the "..." (three dots) menu in the top right corner.
 5. Select "Repositories" from the dropdown menu.
-6. In the "Add repository" field, enter the following URL: `https://github.com/yourusername/appdaemon-custom`
+6. In the "Add repository" field, enter the following URL: `https://github.com/danchitnis/homeassitant-addon/`
 7. Click "Add" to add the repository.
 8. After adding the repository, you should see the "AppDaemon Custom" add-on in the list of available add-ons.
 9. Click on the "AppDaemon Custom" add-on to open its details page.
