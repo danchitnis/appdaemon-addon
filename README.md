@@ -1,4 +1,4 @@
-# appdaemon
+# Appdaemon Custom
 Homeassitant add-on for appdaemon
 
 ## installation
