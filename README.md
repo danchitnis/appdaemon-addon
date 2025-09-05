@@ -1,9 +1,27 @@
 # appdaemon
 Homeassitant add-on for appdaemon
 
+## installation
+
+1. Go to your Home Assistant instance.
+2. Click on "Settings" in the left sidebar.
+3. Click on "Add-ons" in the submenu.
+4. Click on the "..." (three dots) menu in the top right corner.
+5. Select "Repositories" from the dropdown menu.
+6. In the "Add repository" field, enter the following URL: `https://github.com/yourusername/appdaemon-custom`
+7. Click "Add" to add the repository.
+8. After adding the repository, you should see the "AppDaemon Custom" add-on in the list of available add-ons.
+9. Click on the "AppDaemon Custom" add-on to open its details page.
+10. Click the "Install" button to install the add-on.
+11. Once the installation is complete, click on the "Start" button to start the add-on. (notice the installation can take a while because it needs to build the image)
+
+
 ## appdaemon config
 
-go to /addon_configs/appdaemon_custom/appdaemon/appdaemon.yaml
+1. After installation go to /addon_configs/
+2. you should see a folder like `1234_appdaemon-custom` (1234 is a random number)
+3. Open the folder and create a file named `appdaemon.yaml`
+4. Add the following configuration to the `appdaemon.yaml` file:
 
 ```yaml
 appdaemon:
